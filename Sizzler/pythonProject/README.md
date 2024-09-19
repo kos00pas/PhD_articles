@@ -101,7 +101,8 @@ def example_function(x):
 
 example_function(4)
 ```
-# """
+```bash 
+# """\
 # (doa_env) PS C:\Users\kos00\Documents\Run_programs_2\PhD_articles\Sizzler\pythonProject> coverage run .\code_provenance.py
 # Positive
 # Even
@@ -113,8 +114,8 @@ example_function(4)
 # TOTAL                    8      2    75%
 # (doa_env) PS C:\Users\kos00\Documents\Run_programs_2\PhD_articles\Sizzler\pythonProject> coverage html
 # Wrote HTML report to htmlcov\index.html
-# """
-
+# """```
+````
 # Fuzzing with AFL 
 ### AFL Fuzzing Setup for C Program
 
