@@ -1,0 +1,3 @@
+C:/Users/kos00/Documents/Run_programs_2/PhD_articles/Sizzler/c_code/cmake-build-debug/CMakeFiles/c_code.dir
+C:/Users/kos00/Documents/Run_programs_2/PhD_articles/Sizzler/c_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kos00/Documents/Run_programs_2/PhD_articles/Sizzler/c_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
