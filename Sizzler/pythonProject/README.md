@@ -114,3 +114,19 @@ example_function(4)
 # (doa_env) PS C:\Users\kos00\Documents\Run_programs_2\PhD_articles\Sizzler\pythonProject> coverage html
 # Wrote HTML report to htmlcov\index.html
 # """
+
+# Fuzzing with AFL 
+### AFL Fuzzing Setup for C Program
+
+#### Step 1: Install AFL on Debian (WSL)
+```bash
+sudo apt update
+sudo apt install afl
+Step 2: Compile Your C Program with AFL Instrumentation
+afl-gcc -o test_binary_afl main.c
+Step 3: Prepare Input Files for AFL
+mkdir input
+echo "1" > input/test_input
+Step 4: Run AFL Fuzzer
+afl-fuzz -i input -o output ./test_binary_afl
+```
